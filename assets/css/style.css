@@ -1,0 +1,99 @@
+@import "font-awesome";
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+    font-family: font-awesome;
+    font-size: 12px;
+
+}
+.undecoration,sup,a:hover{
+    text-decoration: none;
+    outline: none;
+}
+i{
+    color:black
+}
+body{
+    background: linear-gradient(90deg, rgb(60, 55, 165) 0%, rgb(42, 42, 168) 35%, rgb(50, 73, 175) 100%);
+}
+.customrow{
+    border:1px solid gray;
+    border-radius: 5px;
+    
+    
+}
+
+.cs1:hover,.cs2:hover{
+    cursor: pointer;
+    padding-right: 5px;
+    background-color: rgb(161, 36, 36);
+    color:rgb(0, 0, 0)
+}
+.mlc:hover{
+    background-color: rgb(151, 151, 148)!important;
+    cursor: pointer;
+    padding:5px!important;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    transition: all 0.1s;
+    
+}
+.active{
+    background-color: rgb(223, 217, 186)!important;
+    cursor: pointer;
+    text-decoration: none;
+    padding: auto;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+.mlt:hover{
+    background-color: rgb(209, 209, 150)!important;
+    cursor: pointer;
+    /*padding-left: 10px;*/
+    position: relative;
+    text-decoration: none;
+    border-right: 2px;
+    border-radius: 5px;
+    transition: all 0.1s;
+    
+}
+.ahover:hover{
+
+    background-color: #f7ca61!important;
+    padding: 10px!important;
+    border-radius: 10px;
+    box-shadow: #a19c8f;
+}
+.bhover:hover{
+    background-color: #e2b251!important;
+    padding: 1px!important;
+    border-radius: 10px;
+    box-shadow: #a19c8f;
+}
+.cphover:hover{
+    background-color: #e2b251!important;
+    /*padding: 5px!important;*/
+    border-radius: 20px;
+    box-shadow: #a19c8f;
+}
+.dhover:hover{
+    background-color: #686665!important;
+    /*padding: 5px!important;*/
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: #a19c8f;
+}
+.chover:hover{
+    background-color: #f5f3ee!important;
+    /*padding: 5px!important;*/
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: #a19c8f;
+}
+.maincrd:hover{
+    border:1px solid gray;
+    cursor: pointer;
+}
